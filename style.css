@@ -5,37 +5,75 @@ body {
 }
 
 .container {
-    min-width: 900px;
-    max-width: 1270px;
     margin: 0 auto;
     display: flex;
     flex-direction:  row;
-    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
 }
 
 .wrap-inputs {
     display: flex;
     flex-direction: row;
-    gap: 10px
+    gap: 10px;
 }
 
-.main-picture {
+.picture-container {
+    background-image: url(./images/mainpicture.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     width: 40vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 200px;
+    padding: 15px 0;
+}
+
+h1{
+    color: white;
+}
+
+.logo-picture {
+    width: 50px;
+    height: 70px;
+}
+
+.form-container {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    background: rgb(10,1,15);
+    background: linear-gradient(90deg, rgba(10,1,15,1) 0%, rgba(43,8,56,1) 35%, rgba(47,0,62,1) 100%);
 }
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
     width: 500px;
     padding: 50px;
+    color: whitesmoke;
+    font-size: 20px;
 }
 
 
 form input {
     width: 250px;
-    height: 30px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
 }
+
 #email {
     max-width: auto;
 }

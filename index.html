@@ -18,55 +18,60 @@
   <body>
     <div class="container">
       <div class="picture-container">
-        <img class="main-picture" src="images/mainpicture.jpg" />
+        <div class="logo">
+          <img class="logo-picture" src="images/odin-lined.png" />
+          <h1 class="logo-title">Odin</h1>
+        </div>
       </div>
-      <form>
-        <div class="names-container wrap-inputs">
-          <div class="wrap-label">
-            <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname" placeholder=" " required/>
-          </div>
-          <div class="wrap-label">
-            <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" placeholder=" " required/>
-          </div>
-        </div>
-
-        <div class="contact-container wrap-inputs">
+      <div class="form-container">
+        <form>
+          <div class="names-container wrap-inputs">
             <div class="wrap-label">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder=" " required />
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname" placeholder=" " required/>
             </div>
             <div class="wrap-label">
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" placeholder=" " required />
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname" placeholder=" " required/>
             </div>
-        </div>
-
-        <div class="pass-container wrap-inputs">
-          <div class="wrap-label">
-            <label for="password">Password</label>
-            <input
-              type="password"
-              name="password"
-              id="pass"
-              placeholder=" "
-              required
-            />
           </div>
-
-          <div class="wrap-label">
-            <label for="confirm-password">Confirm Password</label>
-            <input
-              type="password"
-              name="confirm-password"
-              id="confirm-pass"
-              placeholder=" "
-              required
-            />
+        
+          <div class="contact-container wrap-inputs">
+              <div class="wrap-label">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder=" " required />
+              </div>
+              <div class="wrap-label">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" placeholder=" " required />
+              </div>
           </div>
-        </div>
-      </form>
+        
+          <div class="pass-container wrap-inputs">
+            <div class="wrap-label">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                placeholder=" "
+                required
+              />
+            </div>
+          
+            <div class="wrap-label">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-pass"
+                placeholder=" "
+                required
+              />
+            </div>
+          </div>
+        </form>
+    </div>
     </div>
   </body>
 </html>
