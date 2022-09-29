@@ -19,7 +19,7 @@ body {
     gap: 10px;
 }
 
-.picture-container {
+.left-picture-container {
     background-image: url(./images/mainpicture.jpg);
     background-position: center;
     background-size: auto;
@@ -47,22 +47,27 @@ h1{
     height: 70px;
 }
 
-.form-container {
+.right-container {
     width: 1300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-left: 66px;
+    color: whitesmoke;
     background: rgb(10,1,15);
     background: linear-gradient(90deg, rgba(10,1,15,1) 0%, rgba(43,8,56,1) 35%, rgba(47,0,62,1) 100%);
+}
+
+.header-container {
+    
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
     width: 500px;
     padding: 50px;
-    color: whitesmoke;
     font-size: 20px;
 }
 
